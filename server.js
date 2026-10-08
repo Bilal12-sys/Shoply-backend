@@ -9,7 +9,7 @@ import product_Router from "./routes/Products/productsRouter.js";
 // Import env config so that env works
 import {configDotenv} from "dotenv";
 
-configDotenv()
+configDotenv()  
 // Set Express in variable name app
 const app = express()
 app.use(express.json())
